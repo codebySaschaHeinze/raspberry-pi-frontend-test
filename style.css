@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 224, 190);
+}
+
+h1 {
+  margin: 30px 0;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 30px;
+  text-align: left;
+  max-width: 600px;
+  min-width: 300px;
+  font-size: 20px;
+}
