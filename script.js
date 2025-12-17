@@ -1,5 +1,5 @@
 async function get_fruits() {
-  const url = "http://127.0.0.1:8000/fruits/";
+  const url = "http://192.168.0.96:8000/fruits/";
   const errorBox = document.getElementById("error");
 
   try {
